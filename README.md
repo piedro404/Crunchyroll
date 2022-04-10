@@ -1,6 +1,8 @@
 # Crunchyroll
 Tentativa de criar um site sobre a Crunchyroll. Usando HTML + CSS
 
+https://piedrocraft.github.io/Crunchyroll/
+
 # Message for you
 Hello, I hope you have a good learning experience, that you can clear your doubts or implement your projects. Feel free to make suggestions to improve the script.
 
