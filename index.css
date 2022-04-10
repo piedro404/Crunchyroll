@@ -1,0 +1,213 @@
+/* Index */
+
+/* Title */
+.title {
+    background-image: linear-gradient(0deg, #E98538, #6a3806);
+    min-height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title img {
+    width: 650px;
+    margin-bottom: 15px;
+}
+
+.title h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.title .btn {
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+/* Sobre */
+.sobre {
+    background-color: #293241;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 50px;
+}
+
+.sobre img {
+    width: 75px;
+    margin-bottom: 15px;
+}
+
+.sobre h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #E98538;
+}
+
+.sobre p {
+    max-width: 1400px;
+    margin-bottom: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.sobre hr {
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.sobre .grid {
+    width: 100%;
+    display: flex;
+}
+
+.sobre .grid li {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.sobre .grid li i {
+    color: #E98538;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sobre .grid li h4 {
+    font-size: 1.5rem;
+    color: #E98538;
+    margin-bottom: 30px;
+}
+
+.sobre .grid li p {
+    color: #fff;
+}
+
+/* PLanos */
+.planos {
+    background-color: #E98538;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 50px;
+}
+
+.planos i {
+    color: #181b21;
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+
+.planos h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.planos p {
+    max-width: 1400px;
+    margin-bottom: 35px;
+    color: #181b21;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.planos hr {
+    width: 200px;
+    height: 3px;
+    background-color: #181b21;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.planos .grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.planos .video {
+    margin: 0 0 25px 0;
+}
+
+.planos .assin {
+    width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+}
+
+.planos .assin .plan {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    text-align: center;
+    background-color: #fff;
+    min-width: 400px;
+    min-height: 10px;
+    border: 1px solid #000;
+    align-items: center;
+    text-align: center;
+}
+.planos .assin .plan .corpo{
+    width: 100%;
+    height:95%;
+}
+
+.planos .assin .plan .footer{
+    width: 100%;
+    height:5%;
+    margin: 50px;
+}
+
+.planos .assin .plan .corpo .texto{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.planos .assin .plan .plan-title {
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    background-color: rgb(218, 212, 212);
+    color: black;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.planos .assin .plan h2 {
+    color: #000;
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+.planos .assin .plan p {
+    max-width: 80%;
+    margin: 10px 0;
+    color: #181b21;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.planos .assin .plan a {
+    background-color: #E98538;
+    border-radius: 4px;
+    color: #000;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}

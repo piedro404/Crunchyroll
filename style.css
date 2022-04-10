@@ -1,0 +1,134 @@
+/* Padrão do Site */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+nav,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* Menu */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0e0e0e;
+}
+
+header img {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+header nav {
+  display: flex;
+}
+
+header li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+header li {
+  margin: 0 20px;
+}
+
+header li:first-child {
+  margin-left: 0;
+}
+
+header li:last-child {
+  margin-right: 0;
+}
+
+@media(min-width:900px) {
+  header {
+    flex-direction: row;
+  }
+
+  header img {
+    margin-bottom: 0px;
+  }
+
+  header li a {
+    font-size: 30px;
+  }
+}
+
+/* Rodapé */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0e0e0e;
+  padding: 30px 0px;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  margin-right: 15px;
+}
+
+footer ul li:first-child {
+  margin-left: 0;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+footer img {
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+footer p:last-child {
+  margin-bottom: 15px;
+}
