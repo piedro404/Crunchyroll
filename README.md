@@ -1,5 +1,5 @@
 # Crunchyroll
-Tentativa de criar um site sobre a Crunchyroll. Usando HTML + CSS
+Attempt to create a site about Crunchyroll. Using HTML + CSS
 
 https://piedrocraft.github.io/Crunchyroll/
 
