@@ -3,6 +3,9 @@ Attempt to create a site about Crunchyroll. Using HTML + CSS
 
 https://piedrocraft.github.io/Crunchyroll/
 
+![image](https://user-images.githubusercontent.com/88720549/166133713-c74761ef-5764-429d-94a2-ee8e72fcea15.png)
+
+
 # Message for you
 Hello, I hope you have a good learning experience, that you can clear your doubts or implement your projects. Feel free to make suggestions to improve the script.
 
